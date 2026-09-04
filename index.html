@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Mohamed M. Nouman — Agentic AI | Machine Learning Engineer</title>
+  <meta name="description"
+    content="Portfolio of Mohamed M. Nouman — Final-year AI student at Assiut University specializing in Agentic AI systems, multi-agent LLM pipelines, and production-grade machine learning." />
+  <meta name="author" content="Mohamed M. Nouman" />
+  <meta name="theme-color" content="#050505" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohamed M. Nouman — Agentic AI | Machine Learning Engineer" />
+  <meta property="og:description"
+    content="Bridging the gap between raw data and action by engineering custom AI agents and agentic pipelines that automate complex operations." />
+  <meta property="og:type" content="website" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+       ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">
+        <img src="assets/images/logo.png" alt="Logo" />
+        <span class="nav-brand-name" data-i18n="brandName">Mohamed M. Nouman</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+          <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+          </svg>
+          <span data-i18n="langToggle">AR</span>
+        </button>
+      </div>
+
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO — Two-Column
+       ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <!-- Text Column -->
+      <div class="hero-content">
+        <h1 class="hero-name" data-i18n="heroName">Mohamed M. Nouman</h1>
+        <p class="hero-title" data-i18n="heroTitle">Agentic AI | Machine Learning Engineer</p>
+        <p class="hero-tagline" data-i18n="heroTagline">Bridging the gap between raw data and action by engineering
+          custom AI agents and agentic pipelines that automate complex operations.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary" data-i18n="heroCTA1">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline" data-i18n="heroCTA2">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- Profile Image Column -->
+      <div class="hero-media">
+        <div class="profile-frame">
+          <img src="assets/images/profile.png" alt="Mohamed M. Nouman — Profile Photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+       ═══════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="aboutHeading">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p data-i18n="aboutP1">I'm a final-year Artificial Intelligence student at the Faculty of Computers and
+            Information, Assiut University. My work lives at the intersection of autonomous agent design and
+            production-grade machine learning systems.</p>
+          <p data-i18n="aboutP2">I specialize in building multi-step LLM reasoning pipelines, autonomous agent
+            workflows, and robust ML systems — from data ingestion through deployment. I believe the future of software
+            is agentic: systems that reason, plan, adapt, and act on behalf of their users.</p>
+          <p data-i18n="aboutP3">When I'm not orchestrating AI agents, you'll find me exploring cutting-edge research
+            papers, contributing to open-source projects, or mentoring fellow students in our university's AI community.
+          </p>
+        </div>
+
+        <div class="about-details">
+          <div class="detail-card reveal">
+            <span class="label" data-i18n="aboutLabel1">University</span>
+            <span class="value" data-i18n="aboutValue1">Assiut University</span>
+          </div>
+          <div class="detail-card reveal">
+            <span class="label" data-i18n="aboutLabel2">Faculty</span>
+            <span class="value" data-i18n="aboutValue2">Computers &amp; Information</span>
+          </div>
+          <div class="detail-card reveal">
+            <span class="label" data-i18n="aboutLabel3">Year</span>
+            <span class="value" data-i18n="aboutValue3">Final Year</span>
+          </div>
+          <div class="detail-card reveal">
+            <span class="label" data-i18n="aboutLabel4">Focus</span>
+            <span class="value" data-i18n="aboutValue4">Agentic AI &amp; ML Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SKILLS & SERVICES
+       ═══════════════════════════════════════ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="skillsHeading">Skills &amp; Services</h2>
+
+      <div class="skills-grid">
+        <!-- Agentic AI & LLMs -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">🤖</div>
+          <h3 data-i18n="skillCat1Title">Agentic AI &amp; LLMs</h3>
+          <div class="skill-tags" data-i18n-tags="skillCat1Items"></div>
+        </div>
+
+        <!-- ML & Data -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">🧠</div>
+          <h3 data-i18n="skillCat2Title">Machine Learning &amp; Data</h3>
+          <div class="skill-tags" data-i18n-tags="skillCat2Items"></div>
+        </div>
+
+        <!-- Backend & Data Pipelines -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚙️</div>
+          <h3 data-i18n="skillCat3Title">Backend &amp; Data Pipelines</h3>
+          <div class="skill-tags" data-i18n-tags="skillCat3Items"></div>
+        </div>
+
+        <!-- Tools & Scripting -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛠️</div>
+          <h3 data-i18n="skillCat4Title">Tools &amp; Scripting</h3>
+          <div class="skill-tags" data-i18n-tags="skillCat4Items"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FEATURED PROJECTS
+       ═══════════════════════════════════════ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="projectsHeading">Featured Projects</h2>
+
+      <div class="projects-stack">
+        <!-- ── Project 1: DataMind AI ── -->
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-tags">
+              <span class="project-tag">LangGraph</span>
+              <span class="project-tag">ChromaDB</span>
+              <span class="project-tag">Gemini</span>
+              <span class="project-tag">Streamlit</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj1Title">DataMind AI</h3>
+            <p class="project-subtitle" data-i18n="proj1Subtitle">Autonomous ML Engineer &amp; End-to-End Analytics
+              Workflow</p>
+          </div>
+
+          <div class="project-body">
+            <div class="project-block">
+              <div class="project-block-label" data-i18n="proj1TypeLabel">Type</div>
+              <p data-i18n="proj1Type">Personal Project / Research Portfolio</p>
+            </div>
+            <div class="project-block">
+              <div class="project-block-label" data-i18n="proj1DescLabel">Description</div>
+              <p data-i18n="proj1Description">Autonomous agentic system executing full ML lifecycles using LangGraph
+                stateful loops, ChromaDB RAG-backed guidance, self-healing diagnostic recovery, and Streamlit export.
+              </p>
+            </div>
+            <div class="project-block" style="grid-column: 1 / -1;">
+              <div class="project-block-label" data-i18n="proj1TechLabel">Tech Stack</div>
+              <ul class="tech-list" data-i18n-tech="proj1Tech"></ul>
+            </div>
+          </div>
+
+          <div class="project-footer">
+            <a href="https://github.com/Mohamed-3M-Nouman/AutoBI-ML-End-to-End-Analytics-Workflow" target="_blank"
+              rel="noopener noreferrer" class="project-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              <span data-i18n="proj1Link">View on GitHub</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ── Project 2: Shefaa Health Care ── -->
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-tags">
+              <span class="project-tag">ASP.NET Core 9</span>
+              <span class="project-tag">FastAPI</span>
+              <span class="project-tag">Gemini</span>
+              <span class="project-tag">SQLite</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj2Title">Shefaa Health Care</h3>
+            <p class="project-subtitle" data-i18n="proj2Subtitle">AI-Powered Medical Triage Platform</p>
+          </div>
+
+          <div class="project-body">
+            <div class="project-block">
+              <div class="project-block-label" data-i18n="proj2TypeLabel">Type</div>
+              <p data-i18n="proj2Type">Personal Project / Full-Stack Healthcare Platform</p>
+            </div>
+            <div class="project-block">
+              <div class="project-block-label" data-i18n="proj2DescLabel">Description</div>
+              <p data-i18n="proj2Description">ASP.NET Core 9 platform integrating a Gemini triage agent (with fallback
+                resilience) for Arabic symptom routing, doctor verification workflows, and appointment management.</p>
+            </div>
+            <div class="project-block" style="grid-column: 1 / -1;">
+              <div class="project-block-label" data-i18n="proj2TechLabel">Tech Stack</div>
+              <ul class="tech-list" data-i18n-tech="proj2Tech"></ul>
+            </div>
+          </div>
+
+          <div class="project-footer">
+            <a href="https://github.com/Mohamed-3M-Nouman/Shefaa-Health-Care" target="_blank" rel="noopener noreferrer"
+              class="project-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              <span data-i18n="proj2Link">View on GitHub</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+       ═══════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="contactHeading">Let's Collaborate</h2>
+      <p class="contact-text reveal" data-i18n="contactText">Have a project idea, an internship opportunity, or just
+        want to connect? I'd love to hear from you.</p>
+
+      <div class="contact-links reveal">
+        <!-- Email -->
+        <a href="mailto:mohamed.mohamed.nouman.3m@gmail.com" class="contact-btn" id="contactEmail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <polyline points="22,7 12,13 2,7" />
+          </svg>
+          <span data-i18n="contactEmail">Email Me</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/201110119993" target="_blank" rel="noopener noreferrer" class="contact-btn" id="contactWhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9l-5.05.9" />
+            <path d="M9 10a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
+          </svg>
+          <span data-i18n="contactWhatsApp">WhatsApp</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/eng3mno3man/" target="_blank" rel="noopener noreferrer" class="contact-btn"
+          id="contactLinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          <span data-i18n="contactLinkedIn">LinkedIn</span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Mohamed-3M-Nouman" target="_blank" rel="noopener noreferrer" class="contact-btn"
+          id="contactGitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+          </svg>
+          <span data-i18n="contactGitHub">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footerCopy">&copy; 2026 Mohamed M. Nouman.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
